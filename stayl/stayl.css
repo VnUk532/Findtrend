@@ -1,0 +1,533 @@
+body {
+  margin: 0 ;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6
+{
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* CONTEINER================================================== */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* header */
+.header {
+  background: black;
+  height: 75px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.header-logo h2 {
+  margin-left: 10px;
+}
+.nav-a {
+  margin: 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.nav-btn {
+  color: black;
+  padding: 12px 32px;
+  background: #FFFFFF;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+/* intro */
+.intro {
+  height: 750px;
+  background: black;
+}
+.intro-box {
+  display: flex;
+  justify-content: center;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+}
+.intro-text h1 {
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 112%;
+  text-align: center;
+}
+.intro-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 60%;
+  text-align: center;
+  color: #8B8B8B;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.intro-text a {
+  color: black;
+  padding: 12px 32px;
+  background: #A8FF35;
+  border-radius: 40px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+.intro-text .img {
+  position: absolute;
+  top: 355px;
+  left: 895px;
+}
+.intro-text .icon {
+  margin-top: 96px;
+}
+/* section */
+.section {
+  margin-top: 20px;
+  background: #A8FF35;
+  height: 750px;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 750px;
+  justify-content: center;
+}
+.section-text h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 86px;
+  text-align: center;
+  color: #000000;
+}
+.section-box {
+  margin-top: 30px;
+  background: #fff;
+  width: 502px;
+  height: 202px;
+  border-radius: 40px;
+}
+.section-box .img-1 {
+  margin: 52px 72px;
+}
+.section-box .img-i {
+  position: absolute;
+  top: 1258px;
+  left: 436px;
+}
+.section-box .img-o {
+  position: absolute;
+  top: 1258px;
+  left: 1056px;
+}
+.section-text p {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 45%;
+  line-height: 150%;
+  text-align: center;
+  color: #000000
+}
+/* main */
+.main {
+  height: 500px;
+}
+.main-text {
+  display: flex;
+  height: 500px;
+  align-items: center;
+}
+.main-text h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 76px;
+  text-align: center;
+}
+.main-text b {
+  color: #ADADAD;
+}
+/* Findtrend */
+.findtrend {
+  margin-top: 100px;
+  height: 760px;
+}
+.findtrend-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.findtrend-text {
+  margin-bottom: 30px;
+}
+.findtrend-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  text-align: center;
+  color: #000000;
+}
+.findtrend-img-t {
+  display: flex;
+}
+.findtrend-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.findtrend-img img {
+  margin: 30px 51px;
+  width: 190px;
+  height: 40px;
+}
+/* platforma */
+.platforma {
+  height: 500px;
+  color: black;
+  background: #FAFAFA;
+}
+.platforma-text h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 90px;
+  text-align: center;
+  color: #000000;
+}
+.box-platforma {
+  display: flex;
+  justify-content: center;
+}
+.cart-box {
+  width: 124px;
+  height: 124px;
+  background: #fff;
+  margin: 0 10px;
+  transition: .6s;
+}
+.cart-box:hover {
+  background: #A8FF35;
+  border-radius: 8px;
+}
+.cart-box img {
+  padding: 28px 29px;
+}
+
+/* media */
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 1200px;
+  }
+  .intro-text .img {
+    display: none;
+  }
+  .section-box .img-i {
+    display: none;
+  }
+  .section-box .img-o {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .intro-text .img {
+    display: none;
+  }
+  .section-box .img-i {
+    display: none;
+  }
+  .section-box .img-o {
+    display: none;
+  }
+  .findtrend {
+    margin-top: 100px;
+    height: 888px;
+  }
+  .cart-box  {
+    width: 100px;
+    height: 100px;
+  }
+  .cart-box img {
+    padding: 19px 17px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 900px;
+  }
+  .platforma {
+    margin-top: 50px;
+  }
+  .cart-box  {
+    width: 100px;
+    height: 100px;
+  }
+  .cart-box img {
+    padding: 19px 17px;
+  }
+}
+@media screen and  (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .nav-a {
+    margin: 0px 14px;
+    font-size: 13px;
+  }
+  .nav-btn {
+    padding: 5px 17px;
+  }
+  .section-text p {
+    width: 60%;
+  }
+  .main {
+    margin-top: 80px;
+  }
+  .main-text h1 {
+    font-size: 53px;
+  }
+  .findtrend {
+    height: 990px;
+  }
+}
+@media screen and  (max-width: 900px) {
+  .container {
+    width: 540px;
+  }
+  .main-text h1 {
+    line-height: normal;
+    font-size: 45px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .findtrend-text h1 {
+    font-size: 56px;
+  }
+  .findtrend-img img {
+    margin: 30px 42px;
+    width: 163px;
+    height: 40px;
+  }
+  .findtrend {
+    height: 1045px;
+  }
+  .box-platforma {
+    flex-wrap: wrap;
+  }
+  .platforma-text h1 {
+    font-size: 45px;
+    margin-bottom: 47px;
+  }
+  .cart-box {
+    margin: 10px 10px;
+  }
+}
+@media screen and  (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .main-text h1 {
+    line-height: normal;
+    font-size: 45px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .findtrend-text h1 {
+    font-size: 56px;
+  }
+  .findtrend-img img {
+    margin: 30px 42px;
+    width: 163px;
+    height: 40px;
+  }
+  .findtrend {
+    height: 1045px;
+  }
+  .box-platforma {
+    flex-wrap: wrap;
+  }
+  .platforma-text h1 {
+    font-size: 45px;
+    margin-bottom: 47px;
+  }
+  .cart-box {
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .intro-text h1 {
+    font-size: 43px;
+  }
+  .intro-text p {
+    font-size: 16px;
+    width: 73%;
+  }
+  .intro-text .icon {
+    width: 391px;
+  }
+  .section-box {
+    width: 400px;
+    height: 185px;
+  }
+  .section-box .img-1 {
+    margin: 53px 30px;
+  }
+  .section-text p {
+    width: 89%;
+  }
+  .findtrend-img img {
+    margin: 30px 29px;
+    width: 129px;
+  }
+  .platforma-text h1 {
+    font-size: 35px;
+    margin-bottom: 13px;
+  }
+  .platforma {
+    height: 670px;
+  }
+  .cart-box {
+    margin: 10px 17px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+  .intro-text .icon {
+    width: 362px;
+  }
+  .intro-text p {
+    width: 87%;
+  }
+  .section-text h1 {
+    font-size: 37px;
+  }
+  .section-box {
+    width: 356px;
+    height: 169px;
+  }
+  .section-box .img-1 {
+    width: 293px;
+    height: 70px;
+    margin: 53px 30px;
+  }
+  .findtrend-img img {
+    margin: 22px 20px;
+    width: 112px;
+  }
+  .findtrend {
+    height: 928px;
+  }
+
+}
+@media screen and (max-width: 375px) {
+
+  .nav-a {
+    margin: 0px 4px;
+    font-size: 12px;
+  }
+  .nav-btn {
+    font-size: 16px;
+    padding: 3px 8px;
+  }
+  .intro-text h1 {
+    font-size: 35px;
+}
+.intro-text p {
+    width: 83%;
+}
+.intro-text .icon {
+    width: 307px;
+}
+.section-text h1 {
+  line-height: normal;
+  font-size: 37px;
+}
+.section-box {
+    width: 307px;
+    height: 137px;
+}
+.section-box .img-1 {
+    width: 241px;
+    height: 66px;
+    margin: 33px 36px;
+}
+.main-text h1 {
+    font-size: 35px;
+}
+.findtrend-text h1 {
+    font-size: 44px;
+    line-height: normal;
+}
+.findtrend-img img {
+    margin: 17px 14px;
+    width: 117px;
+}
+.findtrend {
+    height: 765px;
+}
+.platforma-text h1 {
+    font-size: 35px;
+    margin-bottom: 13px;
+    line-height: normal;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
